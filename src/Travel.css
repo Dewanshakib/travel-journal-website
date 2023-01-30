@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: #E5E5E5;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+    width: 550px;
+    height: 704px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.4s linear;
+    transform: scale(100%);
+}
+.App:hover{
+    transform: scale(110%);
+}
+.navbar{
+    height: 55px;
+    width: 100%;
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.logo_title{
+    font-size: 14.46px;
+    font-weight: 500;
+    color: #fff;
+}
+.hero{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+}
+.warp_hero{
+    width: 471px;
+    height: 168px;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.img_01{
+    width: 125px;
+    height: 168px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.info_div{
+    width: 346px;
+    height: 144px;
+}
+.location_link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.hero_title{
+    margin-bottom: 15px;
+}
+.hero_date{
+    margin-bottom: 8px;
+}
+.icon{
+    width: 9px;
+    height: 9px;
+    margin-right: 3px;
+}
+.location{
+    font-size: 10.24px;
+    font-weight: 400;
+    color: #2B283A;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.link{
+    font-size: 10.24px;
+    font-weight: 400;
+    color: #918E9B;
+}
+.h_title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #2B283A;
+}
+.h_date{
+    font-size: 10.24px;
+    color: #2B283A;
+    font-weight: 700;
+}
+.h_des{
+    font-size: 10.24px;
+    font-weight: 400;
+    color: #2B283A;
+    line-height: 15.36px;
+}
